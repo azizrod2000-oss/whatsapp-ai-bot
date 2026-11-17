@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-gemini-bot",
+  "version": "1.0.0",
+  "description": "QR kod ve eşleştirme kodu destekli, Gemini AI tabanlı WhatsApp botu",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4"
+  }
+}
